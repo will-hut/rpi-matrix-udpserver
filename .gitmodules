@@ -1,0 +1,6 @@
+[submodule "rpi-matrix-pixelpusher"]
+	path = rpi-matrix-pixelpusher
+	url = https://github.com/hzeller/rpi-matrix-pixelpusher
+[submodule "asio"]
+	path = asio
+	url = https://github.com/chriskohlhoff/asio/
