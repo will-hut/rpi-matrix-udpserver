@@ -7,7 +7,7 @@ RGB_LIBDIR=matrix/lib
 RGB_LIBRARY_NAME=rgbmatrix
 RGB_LIBRARY=$(RGB_LIBDIR)/lib$(RGB_LIBRARY_NAME).a
 
-ASIO_H_DIR = asio/asio/include'
+ASIO_H_DIR = asio/asio/include
 
 LDFLAGS+= -L$(RGB_LIBDIR) -l$(RGB_LIBRARY_NAME) -L$(ASIO_H_DIR)\
           -lrt -lm -lpthread
